@@ -1,0 +1,110 @@
+# Binary analysis output directories
+analysis/
+analysis_output/
+extracted/
+extracted_*/
+output/
+results/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Ghidra project files
+*.gpr
+*.rep/
+*.lock
+
+# IDA Pro files
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.i64
+*.idb
+
+# radare2 files
+*.r2
+
+# Disassembly output
+*.asm
+*.disasm
+disassembly/
+disasm_*/
+
+# Extracted sections
+*.bin
+rodata.bin
+data.bin
+text.bin
+sections/
+
+# Symbol and string dumps
+symbols*.txt
+strings*.txt
+functions*.txt
+elf_*.txt
+
+# Decompiled output
+decompiled/
+reconstructed/
+jni_*.c
+jni_*.cpp
+
+# Android build artifacts (if rebuilding)
+libs/
+obj/
+jni.out
+*.o
+*.so.debug
+
+# Network captures
+*.pcap
+*.pcapng
+mitm_*.log
+traffic/
+
+# Frida scripts output
+frida_*.log
+hook_output/
+traces/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor specific
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Backup files
+*.bak
+*.backup
+*_old
+*_backup
